@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Information = New System.Windows.Forms.Label()
-        Me.Button_Information = New System.Windows.Forms.Button()
+        Me.Button_Informations = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -44,14 +44,14 @@ Partial Class Form1
         Me.Information.Size = New System.Drawing.Size(0, 25)
         Me.Information.TabIndex = 0
         '
-        'Button_Information
+        'Button_Informations
         '
-        Me.Button_Information.Location = New System.Drawing.Point(354, 404)
-        Me.Button_Information.Name = "Button_Information"
-        Me.Button_Information.Size = New System.Drawing.Size(172, 23)
-        Me.Button_Information.TabIndex = 1
-        Me.Button_Information.Text = "Want to know more?"
-        Me.Button_Information.UseVisualStyleBackColor = True
+        Me.Button_Informations.Location = New System.Drawing.Point(354, 404)
+        Me.Button_Informations.Name = "Button_Informations"
+        Me.Button_Informations.Size = New System.Drawing.Size(172, 23)
+        Me.Button_Informations.TabIndex = 1
+        Me.Button_Informations.Text = "Want to know more?"
+        Me.Button_Informations.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -135,7 +135,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button_Information)
+        Me.Controls.Add(Me.Button_Informations)
         Me.Controls.Add(Me.Information)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -146,7 +146,7 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Information As Label
-    Friend WithEvents Button_Information As Button
+    Friend WithEvents Button_Informations As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
