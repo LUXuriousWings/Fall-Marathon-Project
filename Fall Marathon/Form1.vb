@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_Information.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button_Informations.Click
         Label1.Visible = True
         Label2.Visible = True
         Label3.Visible = True
@@ -8,7 +8,7 @@
         Label2.Text = "Ryan Park"
         Label3.Text = "Start Time: 8:00 AM"
         Label4.Text = "For more information, view the Fall Marathon Facebook page."
-        Button_Information.Visible = False
+        Button_Informations.Visible = False
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
