@@ -29,7 +29,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Title = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Motto_Half = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -93,15 +93,15 @@ Partial Class Form1
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Label4"
         '
-        'Label5
+        'Title
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(369, 9)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(157, 25)
-        Me.Label5.TabIndex = 6
-        Me.Label5.Text = "Fall Marathon"
+        Me.Title.AutoSize = True
+        Me.Title.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Title.Location = New System.Drawing.Point(369, 9)
+        Me.Title.Name = "Title"
+        Me.Title.Size = New System.Drawing.Size(157, 25)
+        Me.Title.TabIndex = 6
+        Me.Title.Text = "Fall Marathon"
         '
         'PictureBox1
         '
@@ -130,7 +130,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(880, 684)
         Me.Controls.Add(Me.Motto_Half)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Title)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -151,7 +151,7 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents Title As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Motto_Half As Label
 End Class
