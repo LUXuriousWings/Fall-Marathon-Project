@@ -117,7 +117,7 @@ Partial Class Form1
         '
         Me.Motto_Half.AutoSize = True
         Me.Motto_Half.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Motto_Half.Location = New System.Drawing.Point(357, 223)
+        Me.Motto_Half.Location = New System.Drawing.Point(357, 212)
         Me.Motto_Half.Name = "Motto_Half"
         Me.Motto_Half.Size = New System.Drawing.Size(467, 24)
         Me.Motto_Half.TabIndex = 11
